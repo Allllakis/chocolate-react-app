@@ -1,12 +1,20 @@
 .form {
     text-align: right;
+   
+  }
+
+  .form input {
+    background-color: #383838;
+    color: white;
   }
   
   .form button {
     font: inherit;
     cursor: pointer;
-    background-color: #411605;
-    border: 1px solid #411605;
+    background-color: #8a064f;
+    /* border-color: #8a064f; */
+    border: none;
+    
     color: white;
     padding: 0.25rem 2rem;
     border-radius: 20px;
@@ -15,6 +23,8 @@
   
   .form button:hover,
   .form button:active {
-    background-color: #8a064f;
-    border-color: #8a064f;
+    background-color: #383838;
+    border: 1px solid #411605;
+    /* background-color: #8a064f;
+    border-color: #8a064f; */
   }
