@@ -1,10 +1,10 @@
 .button {
     cursor: pointer;
-    font: inherit;
+    /* font: inherit; */
     border: none;
     background-color: #383838;
     color: white;
-    padding: 0.75rem 3rem;
+    padding: 0.75rem 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -22,6 +22,10 @@
     height: 1.35rem;
     margin-right: 0.5rem;
   }
+
+  /* .title {
+    font-size: 0.6rem;
+  } */
   
   .badge {
     background-color: #8a064f;
@@ -56,5 +60,12 @@
     }
     100% {
       transform: scale(1);
+    }
+  }
+
+  @media (min-width: 768px) {
+    .button {
+      padding: 0.75rem 3rem;
+      font: inherit;
     }
   }

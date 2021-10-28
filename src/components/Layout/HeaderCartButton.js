@@ -38,7 +38,7 @@ useEffect(() => {
       <span className={classes.icon}>
         <CartIcon />
       </span>
-      <span>My Cart</span>
+      <span >My Cart</span>
       <span className={classes.badge}>{numberCartOfItems}</span>
     </button>
   );
